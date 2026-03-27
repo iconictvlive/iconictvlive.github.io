@@ -532,7 +532,7 @@ function showBufferLoading(){
   clearTimeout(bufferTimer);
   var buf = document.getElementById('bufferOverlay');
   if(buf) buf.style.display = 'flex';
-  bufferTimer = setTimeout(hideBufferLoading, 3000);
+  bufferTimer = setTimeout(hideBufferLoading, 5000);
 }
 function hideBufferLoading(){
   clearTimeout(bufferTimer);
